@@ -1,0 +1,25 @@
+.top-bar {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+body {
+  background-color: #b1cde0;
+}
+
+.container {
+  font-size: 20px;
+  width: 50%;
+  margin-left: 25%;
+  border-left: dashed;
+  border-color: grey;
+  padding: 10px;
+}
+
+.aboutme {
+  font-weight: bold;
+  border: solid;
+  border-color: grey;
+  margin-left: 25%;
+  width: 50%;
+}
