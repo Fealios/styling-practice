@@ -1,0 +1,30 @@
+.flashy {
+  font-family: fantasy;
+}
+
+h1{
+  animation: blinker 1s linear infinite;
+  color: blue;
+}
+
+@keyframes blinker {
+  60% { opacity: 0; }
+}
+
+.best {
+  font-weight: bolder;
+  font-family: fantasy;
+  color: red;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.redvelvet {
+  height: 180px;
+}
+
+ul {
+  list-style: none;
+}
