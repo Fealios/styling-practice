@@ -4,6 +4,8 @@ div {
   width: 250px;
   height: 400px;
   margin-left: 20px;
+  padding: 5px;
+  font-family: sans-serif;
 }
 
 img {
@@ -21,4 +23,13 @@ h1 {
 
 h2 {
   font-family: cursive;
+}
+
+div p {
+  font-weight: lighter;
+}
+
+div li {
+  font-weight: lighter;
+  color: pink;
 }
