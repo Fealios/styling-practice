@@ -1,0 +1,11 @@
+div {
+  float: left;
+  border: solid;
+  width: 250px;
+  height: 400px;
+}
+
+img {
+  float: top;
+  width: 250px;
+}
