@@ -1,0 +1,21 @@
+.shows {
+  float: right;
+  border-left: solid;
+  border-width: 1px;
+  border-color: red;
+}
+
+img {
+  width: 400px;
+  float: left;
+}
+
+.container {
+  width: 70%;
+  border: solid;
+
+}
+
+ul {
+  list-style: none;
+}
