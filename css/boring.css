@@ -18,6 +18,10 @@ body{
   text-align: center;
 }
 
+.intro {
+  font-size: 20px;
+}
+
 h1.intro {
   font-size: 40px;
   font-size: 3.5em;
