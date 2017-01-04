@@ -7,13 +7,13 @@ body{
 }
 
 .text {
-  border: solid;
   color: white;
   position: absolute;
   width: 50%;
   margin-left: 25%;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
   height: 90%;
   text-align: center;
 }
@@ -29,17 +29,24 @@ img.intro {
   background-color: black;
   border-width: thick;
   width: 80%;
+  border-radius: 20%;
 }
 
 p.intro {
-  font-size: 15px;
+  font-size: 25px;
   font-style: italic;
-  font-weight: bold;
+  font-weight:lighter;
 }
 
 .paragraphs {
-  font-size: 15px;
+  font-size: 20px;
   font-style: italic;
+}
+
+a {
+  font-size: 20px;
+  color: pink;
+  text-shadow: 1px 1px white;
 }
 
 /*
