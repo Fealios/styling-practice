@@ -28,3 +28,16 @@ body {
 ul {
   list-style: none;
 }
+
+ .find {
+  padding: 10px;
+  margin-top: 30px;
+  border: solid;
+  border-style: dashed;
+  width: 140px;
+  text-align: center;
+  background-color: white;
+}
+ a {
+   color: green;
+ }
