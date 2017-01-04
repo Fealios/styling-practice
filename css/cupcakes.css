@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno')
+
 .flashy {
   font-family: fantasy;
 }
@@ -5,10 +7,19 @@
 h1{
   animation: blinker 1s linear infinite;
   color: blue;
+  font-family: 'Italianno', cursive;
+  text-align: center;
+  font-size: 50px;
 }
 
 @keyframes blinker {
   60% { opacity: 0; }
+}
+
+p {
+  font-family: cursive;
+  font-size: 20px;
+  color: grey;
 }
 
 .best {
@@ -21,12 +32,17 @@ body {
   background-color: lightblue;
 }
 
+img {
+  border-radius: 10px;
+}
+
 .redvelvet {
   height: 180px;
 }
 
 ul {
   list-style: none;
+  font-size: 25px;
 }
 
  .find {
@@ -40,4 +56,8 @@ ul {
 }
  a {
    color: green;
+ }
+
+ .holder {
+   margin-left: 20px;
  }
