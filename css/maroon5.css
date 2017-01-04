@@ -1,21 +1,47 @@
+body{
+  background-color: #82172B;
+  color: lightgrey;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
 .shows {
   float: right;
   border-left: solid;
-  border-width: 1px;
+  border-bottom: dashed;
+  border-width: 2px;
   border-color: red;
+  height: 200px;
+  margin-left: 10px;
+}
+
+img.headline {
+  width: 400px;
+  float: left;
+  margin-right: 10px;
 }
 
 img {
-  width: 400px;
-  float: left;
+  width: 250px;
+  float: right;
+}
+
+li.title {
+  font-size: 20px;
+  color: skyblue;
+  border-bottom: solid;
+  margin-bottom: 20px;
 }
 
 .container {
   width: 70%;
-  border: solid;
-
+  margin: 20px;
 }
 
 ul {
   list-style: none;
+  line-height: 25px;
 }
