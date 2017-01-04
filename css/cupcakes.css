@@ -12,6 +12,12 @@ h1{
   font-size: 50px;
 }
 
+.title {
+  font-size: 29px;
+  color: red;
+  text-decoration: underline;
+}
+
 @keyframes blinker {
   60% { opacity: 0; }
 }
@@ -43,6 +49,7 @@ img {
 ul {
   list-style: none;
   font-size: 25px;
+  font-family: cursive;
 }
 
  .find {
