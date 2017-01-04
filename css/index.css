@@ -1,0 +1,20 @@
+.first{
+  font-size: 8px;
+  font-style:italic;
+}
+
+.second{
+  font-family: cursive;
+  color: skyblue;
+  font-weight: 300;
+}
+
+em.emphasis{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+strong.emphasis{
+  font-size: 2px;
+  color: red;
+}
