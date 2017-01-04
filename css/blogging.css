@@ -1,10 +1,19 @@
 .top-bar {
   font-size: 30px;
   font-family: cursive;
+  text-align: center;
+  color: #93cc3f;
+  text-shadow: 1px 0 grey;
 }
 
 body {
   background-color: #b1cde0;
+}
+
+.blog2 {
+  border-top: dashed;
+  border-color: grey;
+  padding: 10px;
 }
 
 .container {
@@ -18,8 +27,17 @@ body {
 
 .aboutme {
   font-weight: bold;
-  border: solid;
+  text-align: center;
+  font-size: 20px;
+  border-bottom: dashed;
   border-color: grey;
   margin-left: 25%;
   width: 50%;
+  font-style: italic;
+}
+
+.contact {
+  border-top: solid;
+  font-weight: bold;
+  margin-top: 10px;
 }
