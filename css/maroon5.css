@@ -1,8 +1,30 @@
+@media screen and (max-width:480px){
+
+}
+
 @media screen and (max-width: 850px){
   img {
-    width: 250px;
+    width: 400px;
   }
 
+  li.title {
+
+  }
+
+  .shows {
+    float: right;
+    border-left: solid;
+    border-bottom: dashed;
+    border-width: 2px;
+    border-color: red;
+    height: 200px;
+    width: 300px;
+    margin-left: 10px;
+  }
+
+  ul {
+    list-style: none;
+  }
 }
 
 @media screen and (min-width: 850px){
