@@ -1,14 +1,18 @@
 @media screen and (max-width:480px){
-
+  body {
+    background-color: black;
+  }
 }
 
 @media screen and (max-width: 850px){
   img {
-    width: 400px;
+    width: 50%;
   }
 
   li.title {
-
+    font-size: 20px;
+    border-bottom: solid;
+    margin-bottom: 20px;
   }
 
   .shows {
@@ -18,12 +22,13 @@
     border-width: 2px;
     border-color: red;
     height: 200px;
-    width: 300px;
-    margin-left: 10px;
+    width: 49%;
   }
 
   ul {
     list-style: none;
+    line-height: 25px;
+
   }
 }
 
